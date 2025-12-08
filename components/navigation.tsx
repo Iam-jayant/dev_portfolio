@@ -17,9 +17,9 @@ export function Navigation() {
           <Link href="/resume" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Resume
           </Link>
-          <a href="/#portfolio" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          <Link href="/projects" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Projects
-          </a>
+          </Link>
           <a href="/#achievements" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Achievements
           </a>
