@@ -1,5 +1,6 @@
-import { Mail, ChevronDown } from "lucide-react"
+import { Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function Navigation() {
   return (
@@ -10,19 +11,19 @@ export function Navigation() {
         </div>
 
         <div className="hidden md:flex items-center gap-6 flex-1 justify-center">
-          <a href="#home" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          <Link href="/" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Home
-          </a>
-          <a href="#about" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          </Link>
+          <Link href="/resume" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Resume
-          </a>
-          <a href="#portfolio" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          </Link>
+          <a href="/#portfolio" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Projects
           </a>
-          <button className="flex items-center gap-1 text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          <a href="/#achievements" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Achievements
-          </button>
-          <a href="#cart" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          </a>
+          <a href="/#blogs" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Blogs
           </a>
         </div>
