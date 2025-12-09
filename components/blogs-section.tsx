@@ -6,7 +6,7 @@ import Link from "next/link"
 const blogs = [
   {
     id: 1,
-    title: "Getting Started with UI/UX Design: A Beginner's Journey",
+    title: "The Digital Treasure Chest: Why We Need "Crypto Wills" and How I Built One",
     description: "Learn the fundamentals of UI/UX design and how to kickstart your career in this exciting field.",
     tag: "Design",
     image: "/images/article-design-tools.png",
