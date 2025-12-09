@@ -151,3 +151,17 @@
 .animate-marquee-vertical {
   animation: marquee-vertical 25s linear infinite;
 }
+
+/* Added horizontal scroll-left animation for GitHub activity marquee */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 30s linear infinite;
+}
