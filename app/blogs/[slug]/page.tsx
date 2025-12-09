@@ -82,7 +82,6 @@ const blogs = [
 
     <h3>Conclusion</h3>
     <p>Great problem solving isn't about knowing every answer; it’s about having a robust process to find them. By cultivating a disciplined mindset and breaking down complexity, you transform obstacles into opportunities for innovation.</p>
-</article>
     `,
   },
   {
