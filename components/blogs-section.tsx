@@ -16,9 +16,9 @@ const blogs = [
   },
   {
     id: 2,
-    title: "Building Scalable Web Applications with Next.js",
-    description: "Explore best practices for creating performant and scalable web apps using Next.js framework.",
-    tag: "Development",
+    title: "Saad - AI-Powered Customer Sentiment Alert System",
+    description: "Saad is an intelligent AI agent that continuously monitors Twitter/X and Reddit for brand mentions, automatically analyzes sentiment using advanced AI models, and sends real-time alerts via Slack and Email when negative sentiment is detected.",
+    tag: "AI",
     image: "/images/article-font-sizes.png",
     author: "Jayant",
     date: "Nov 28, 2024",
