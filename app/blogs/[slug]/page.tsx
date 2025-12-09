@@ -94,28 +94,37 @@ const blogs = [
     author: "Jayant",
     date: "Nov 15, 2024",
     content: `
-      <p>Problem-solving is the cornerstone of software engineering. While technical skills are essential, the ability to approach and solve complex problems systematically is what truly sets exceptional engineers apart.</p>
-      
-      <h2>Understanding the Problem</h2>
-      <p>Before writing a single line of code, invest time in understanding the problem thoroughly. Ask clarifying questions, identify edge cases, and ensure you grasp the requirements completely. This upfront investment saves countless hours of rework later.</p>
-      
-      <h2>Breaking Down Complexity</h2>
-      <p>Large problems can feel overwhelming. The key is to break them into smaller, manageable pieces. Each sub-problem becomes easier to solve, and the solutions can be composed together to address the original challenge.</p>
-      
-      <h2>Patterns and Mental Models</h2>
-      <p>Experienced engineers recognize patterns from problems they've solved before. Building a library of mental models and design patterns helps you approach new challenges with proven strategies.</p>
-      
-      <h2>The Debugging Mindset</h2>
-      <p>When things go wrong (and they will), approach debugging systematically:</p>
-      <ul>
-        <li>Reproduce the issue consistently</li>
-        <li>Isolate the problem to the smallest possible scope</li>
-        <li>Form hypotheses and test them methodically</li>
-        <li>Document your findings for future reference</li>
-      </ul>
-      
-      <h2>Continuous Learning</h2>
-      <p>The best problem solvers never stop learning. Read code written by others, study algorithms, practice on coding platforms, and always be curious about how things work under the hood.</p>
+      <h1>Silence is Expensive: Why AI-Driven Sentiment Analysis is the Future of Brand Protection</h1>
+
+    <h3>The Velocity of Viral Negativity</h3>
+    <p>In today’s hyper-connected digital landscape, a brand's reputation is no longer defined by its marketing campaigns, but by the public conversations happening on social platforms like Twitter (X) and Reddit. The speed at which negative feedback travels is unprecedented; a single dissatisfied customer’s post can spiral into a PR crisis before a human support agent even logs in for the day. Traditional "social listening" tools often fail because they rely on simple keyword matching, flagging every mention regardless of context, or missing sarcasm and subtle discontent entirely.</p>
+    <p>To solve this latency and accuracy gap, I engineered <strong>Agent Saad</strong>—an intelligent, autonomous sentry designed to monitor, analyze, and escalate customer sentiment in real-time.</p>
+
+    <h3>Introducing Agent Saad: The AI Sentinel</h3>
+    <p>Agent Saad is not just a scraper; it is a proactive reputation management system powered by state-of-the-art Natural Language Processing (NLP). Unlike passive dashboards that require constant monitoring, Agent Saad operates on a "push" philosophy. It filters the noise and only alerts human teams when specific urgency thresholds are met, ensuring that support teams focus their energy on high-priority fires rather than low-priority smoke.</p>
+
+    <h3>Core Architectural Features</h3>
+    <ul>
+        <li>
+            <strong>Advanced AI Model (DistilBERT Implementation):</strong><br>
+            At the core of Agent Saad is <code>distilbert-base-uncased-finetuned-sst-2-english</code>, a transformer model fine-tuned on the Stanford Sentiment Treebank. This allows the system to understand nuance—distinguishing between a user asking a question and a user expressing frustration—achieving over 90% accuracy in sentiment classification.
+        </li>
+        <li>
+            <strong>Context-Aware Urgency Scoring:</strong><br>
+            Sentiment analysis is useless without context. Agent Saad implements a proprietary "Urgency Logic" that combines the raw sentiment score (from -1.0 to +1.0) with engagement metrics (likes, retweets, upvotes). A moderately negative tweet from an influential user triggers a <strong>CRITICAL</strong> alert, whereas a similar tweet with zero engagement might be classified as <strong>LOW</strong> priority. This ensures that teams are responding to the most damaging potential threats first.
+        </li>
+        <li>
+            <strong>Closed-Loop Incident Response:</strong><br>
+            The system integrates directly into existing workflows via Slack and Email. When a high-priority alert is triggered, it doesn't just notify the team; it provides an <strong>AI-generated response recommendation</strong> based on the context of the complaint. This significantly reduces the "Time to First Response" (TTFR), turning potential detractors into promoters.
+        </li>
+    </ul>
+
+    <h3>Why This Matters</h3>
+    <p>Building Agent Saad was an exercise in bridging the gap between academic AI and practical business utility. While many projects focus on the <em>capability</em> of AI to generate text or images, Agent Saad focuses on the <em>utility</em> of AI to act as a first line of defense.</p>
+    <p>By automating the detection and prioritization of customer sentiment, we move from a reactive support model to a proactive one. Agent Saad represents a shift in how we handle digital reputation—treating every mention not just as data, but as an opportunity to demonstrate reliability and care.</p>
+
+    <h3>Conclusion</h3>
+    <p>In an era where brand loyalty is fragile, the ability to listen intelligently is a competitive advantage. Agent Saad proves that with the right application of Transformer models and thoughtful software engineering, we can build systems that don't just hear our customers, but truly understand them.</p>
     `,
   },
   {
