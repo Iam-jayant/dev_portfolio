@@ -27,25 +27,25 @@ const projects = [
     title: "CRYPT - NFT Gift Protocol",
     description:
       "NFT Gift Protocol is a decentralized gifting platform that combines AI-generated art with ERC-20 token vaults. Users can create personalized NFT gift cards that securely store real crypto value, which recipients can keep as collectibles or liquidate instantly.",
-    tag: "SaaS",
+    tag: "Web3 x AI",
     logo: "/images/studio-logo.svg",
     bgColor: "bg-[#10B981]",
     illustration: "/images/studio-workspace.svg",
   },
   {
-    title: "HealthSync - Wellness Tracking Platform",
+    title: "EraseIt - Ultra-Fast Drive Wiper",
     description:
-      "An integrated health and wellness platform that syncs data from multiple fitness devices, provides personalized insights, and helps users achieve their health goals.",
-    tag: "HealthTech",
+      "High-Performance NIST SP 800-88 Compliant Data Destruction Solution. It make sure that data is 100% not recoverable even after trying most reliable methods of recovery.",
+    tag: "Software",
     logo: "/images/venture-logo.svg",
     bgColor: "bg-[#F59E0B]",
     illustration: "/images/venture-workspace.svg",
   },
   {
-    title: "EcoMarket - Sustainable E-commerce",
+    title: "Jeevan Setu – Bridge of Life",
     description:
-      "A marketplace platform connecting eco-conscious consumers with sustainable brands, featuring carbon footprint tracking and ethical sourcing verification.",
-    tag: "E-commerce",
+      "Jeevan Setu is a role-based platform that securely connects organ donors and recipients through verified doctors and hospital networks. Built with a mission to reduce the delay and wastage in organ donation, it enables ethical, transparent, and medically prioritized matching.",
+    tag: "Full-stack",
     logo: "/images/studio-logo.svg",
     bgColor: "bg-[#EC4899]",
     illustration: "/images/studio-workspace.svg",
