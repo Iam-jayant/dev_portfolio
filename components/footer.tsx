@@ -42,7 +42,7 @@ export function Footer() {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://x.com"
+                  href="https://x.com/0xjayantxyz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-[#2F81F7] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
