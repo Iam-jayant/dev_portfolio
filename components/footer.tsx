@@ -50,7 +50,7 @@ export function Footer() {
                   <XIcon className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/frames.by.jk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-[#FF6B7A] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
