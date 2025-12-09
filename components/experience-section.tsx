@@ -78,7 +78,7 @@ export function ExperienceSection() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
           <div className="text-white pt-0 md:pt-12 md:sticky md:top-12 self-start">
             <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 md:mb-8 leading-[1.3]">
-              Take a look at my <span className="bg-[#6366F1] text-white px-3 py-1 inline-block">past experience</span>
+              Take a look at my <span className="bg-[#6366F1] text-white px-3 py-1 inline-block">experience</span>
             </h2>
             <p className="text-gray-400 mb-8 md:mb-10 leading-relaxed text-base md:text-lg">
               Hackathons, competitions, and recognitions that showcase my journey and achievements in tech.
