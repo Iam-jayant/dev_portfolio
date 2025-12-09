@@ -2,7 +2,6 @@ import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
 import { GithubActivityMarquee } from "@/components/github-activity-marquee"
 import { ServicesSection } from "@/components/services-section"
-import { AboutSection } from "@/components/about-section"
 import { PortfolioSection } from "@/components/portfolio-section"
 import { ExperienceSection } from "@/components/experience-section"
 import { BlogsSection } from "@/components/blogs-section"
@@ -15,7 +14,6 @@ export default function Home() {
       <HeroSection />
       <GithubActivityMarquee />
       <ServicesSection />
-      <AboutSection />
       <PortfolioSection />
       <ExperienceSection />
       <BlogsSection />
