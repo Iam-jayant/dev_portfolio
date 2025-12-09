@@ -30,7 +30,7 @@ export function Footer() {
                 <span className="text-lg md:text-xl font-bold">Portfolio JK</span>
               </div>
               <p className="text-gray-400 mb-6 text-sm leading-relaxed">
-                This is dev portfolio of me. Refer to my resume and profiles to explore more about me.
+                This is developer portfolio of me. Refer to my resume and profiles to explore more about me.
               </p>
               <div className="flex gap-3">
                 <a
