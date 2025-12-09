@@ -19,24 +19,35 @@ const blogs = [
     author: "Jayant",
     date: "Dec 5, 2024",
     content: `
-      <p>In the rapidly evolving world of cryptocurrency and blockchain technology, one critical aspect often overlooked is the question of digital inheritance. What happens to your crypto assets when you're no longer around to manage them?</p>
-      
-      <h2>The Problem</h2>
-      <p>Traditional inheritance systems are ill-equipped to handle digital assets. Private keys, seed phrases, and wallet access present unique challenges that conventional legal frameworks simply cannot address effectively. This gap in the market represents both a significant risk for crypto holders and an opportunity for innovation.</p>
-      
-      <h2>Introducing Ascend Protocol</h2>
-      <p>Ascend Protocol emerges as India's pioneering solution to this pressing problem. Our platform provides a comprehensive crypto inheritance system that handles everything from asset liquidation to bank deposits, ensuring your digital wealth reaches your intended beneficiaries.</p>
-      
-      <h2>Key Features</h2>
-      <ul>
-        <li><strong>Smart Contract Security:</strong> All inheritance rules are encoded in tamper-proof smart contracts</li>
-        <li><strong>Multi-Signature Verification:</strong> Multiple layers of authentication ensure only legitimate claims are processed</li>
-        <li><strong>Automated Liquidation:</strong> Assets can be automatically converted to fiat currency based on predefined conditions</li>
-        <li><strong>Legal Compliance:</strong> Built to work within existing legal frameworks while leveraging blockchain advantages</li>
-      </ul>
-      
-      <h2>Looking Forward</h2>
-      <p>As cryptocurrency adoption continues to grow, the need for robust inheritance solutions will only become more pressing. Ascend Protocol is positioned to lead this transformation, ensuring that digital legacies are preserved and transferred securely.</p>
+      <h3>The Silent Crisis in Web3</h3>
+    <p>One of the fundamental tenets of Web3 is self-custody—the idea that "not your keys, not your coins." While this empowers individuals with absolute sovereignty over their assets, it introduces a critical vulnerability: the lack of a standardized succession plan. Unlike traditional finance, where legal frameworks and centralized institutions facilitate wealth transfer post-mortem, the blockchain is indifferent to the user’s status. If private keys are lost or not transmitted, the assets become permanently inaccessible. Current estimates suggest that billions of dollars in cryptocurrency are trapped in "zombie wallets," lost forever due to the absence of inheritance mechanisms.</p>
+
+    <h3>Introducing Ascend Protocol: A Decentralized Succession Solution</h3>
+    <p>To address this critical infrastructure gap, I developed <strong>Ascend Protocol</strong>, India's first comprehensive crypto inheritance platform. Built to operate on the Sepolia testnet, Ascend Protocol automates the transmission of digital assets to designated beneficiaries without requiring them to possess advanced technical knowledge of private keys or wallet management.</p>
+    <p>The protocol was designed to bridge the gap between decentralized finance (DeFi) complexities and real-world utility, specifically tailoring the "off-ramp" experience for the Indian market.</p>
+
+    <h3>Core Architectural Features</h3>
+    <ul>
+        <li>
+            <strong>Automated Deadman Switch Mechanism:</strong><br>
+            At the heart of the protocol is a smart contract-based vault. Users configure a "check-in" period—a specific timeframe within which they must interact with the contract to prove activity. If the user fails to check in within the defined period (plus a grace period), the protocol programmatically infers that the user is incapacitated and triggers the inheritance process.
+        </li>
+        <li>
+            <strong>Decentralized Liquidation Engine:</strong><br>
+            Inheritance is often complicated by the volatility of crypto assets and the technical barrier of liquidating them. Ascend Protocol integrates a <strong>Liquidation Engine</strong> that utilizes the QuickSwap DEX to automatically swap volatile holdings (e.g., MATIC, ERC20 tokens) into USDC. This ensures that the value of the estate is preserved in a stable asset class immediately upon triggering, protecting beneficiaries from market fluctuations during the transition.
+        </li>
+        <li>
+            <strong>Fiat Bridging and Compliance (UPI Integration):</strong><br>
+            Recognizing that many beneficiaries may not be crypto-native, the protocol includes a unique <strong>UPI Bridge</strong>. This feature tracks the conversion of the liquidated USDC into Indian Rupees (INR) and facilitates the deposit directly into the beneficiary's bank account via UPI. Furthermore, the system records payout details to assist with tax compliance (specifically regarding TDS and Section 194S), ensuring the inheritance process adheres to local regulatory frameworks.
+        </li>
+    </ul>
+
+    <h3>Innovation at IIIT Nagpur</h3>
+    <p>Ascend Protocol was conceptualized and built during my time at <strong>IIIT Nagpur</strong>, where it was developed as a hackathon project. The objective was to move beyond speculative blockchain use cases and solve a tangible, human-centric problem.</p>
+    <p>The project was recognized with a prize for its practical application of smart contracts to solve the "last mile" problem of crypto inheritance. By automating the technical heavy lifting—liquidation, conversion, and transfer—Ascend Protocol demonstrates how Web3 technologies can be humanized to secure intergenerational wealth.</p>
+
+    <h3>Conclusion</h3>
+    <p>As the adoption of digital assets grows, the need for secure, trustless inheritance solutions becomes non-negotiable. Ascend Protocol represents a significant step forward in this domain, proving that we can build systems that respect the ethos of decentralization while providing the safety nets necessary for mainstream adoption.</p>
     `,
   },
   {
