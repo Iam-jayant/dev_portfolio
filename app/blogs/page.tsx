@@ -1,30 +1,36 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
-import { ArrowLeft } from "lucide-react"
+import { ArrowLeft, ArrowRight } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 
 const blogs = [
   {
     id: 1,
-    title: "Getting Started with UI/UX Design: A Beginner's Journey",
-    description: "Learn the fundamentals of UI/UX design and how to kickstart your career in this exciting field.",
-    tag: "Design",
+    slug: "securing-digital-legacies",
+    title: "Securing Digital Legacies: The Imperative for On-Chain Inheritance Protocols",
+    description:
+      "This project, Ascend Protocol, is India's first attempt at a crypto inheritance platform that handles everything from liquidation to deposit in bank.",
+    tag: "Web3",
     image: "/images/article-design-tools.png",
     author: "Jayant",
     date: "Dec 5, 2024",
   },
   {
     id: 2,
-    title: "Building Scalable Web Applications with Next.js",
-    description: "Explore best practices for creating performant and scalable web apps using Next.js framework.",
-    tag: "Development",
+    slug: "saad-ai-sentiment-alert",
+    title: "Saad - AI-Powered Customer Sentiment Alert System",
+    description:
+      "Saad is an intelligent AI agent that continuously monitors Twitter/X and Reddit for brand mentions, automatically analyzes sentiment using advanced AI models.",
+    tag: "AI",
     image: "/images/article-font-sizes.png",
     author: "Jayant",
     date: "Nov 28, 2024",
   },
   {
     id: 3,
+    slug: "problem-solving-software-engineering",
     title: "The Art of Problem Solving in Software Engineering",
     description: "Discover effective strategies and mindset shifts that help tackle complex coding challenges.",
     tag: "Career",
@@ -34,6 +40,7 @@ const blogs = [
   },
   {
     id: 4,
+    slug: "mastering-react-hooks",
     title: "Mastering React Hooks: From Basics to Advanced Patterns",
     description: "A comprehensive guide to understanding and utilizing React Hooks effectively in your projects.",
     tag: "Development",
@@ -70,7 +77,7 @@ export default function BlogsPage() {
             {blogs.map((blog) => (
               <div
                 key={blog.id}
-                className="group bg-white border-[3px] border-black rounded-3xl overflow-hidden hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer"
+                className="group bg-white border-[3px] border-black rounded-3xl overflow-hidden hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all duration-300"
               >
                 {/* Image */}
                 <div className="bg-[#EDEDED] relative h-[200px] md:h-[240px] m-3 md:m-4 rounded-2xl overflow-hidden">
@@ -92,15 +99,23 @@ export default function BlogsPage() {
                     {blog.description}
                   </p>
 
-                  {/* Author & Date */}
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-[#FDB927] border-2 border-black rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-sm font-bold">J</span>
+                  {/* Author & Date & Read Button */}
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-[#FDB927] border-2 border-black rounded-full flex items-center justify-center flex-shrink-0">
+                        <span className="text-sm font-bold">J</span>
+                      </div>
+                      <div>
+                        <div className="font-semibold text-sm text-[#0B0B0B]">{blog.author}</div>
+                        <div className="text-xs text-gray-500">{blog.date}</div>
+                      </div>
                     </div>
-                    <div>
-                      <div className="font-semibold text-sm text-[#0B0B0B]">{blog.author}</div>
-                      <div className="text-xs text-gray-500">{blog.date}</div>
-                    </div>
+                    <Link href={`/blogs/${blog.slug}`}>
+                      <Button className="bg-black text-white border-2 border-black rounded-xl px-3 py-2 hover:bg-gray-800 font-semibold text-xs flex items-center gap-1">
+                        Read
+                        <ArrowRight className="w-3 h-3" />
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </div>

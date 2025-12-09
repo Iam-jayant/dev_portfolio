@@ -1,4 +1,4 @@
-import { Pencil } from "lucide-react"
+import { Pencil, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
@@ -6,8 +6,10 @@ import Link from "next/link"
 const blogs = [
   {
     id: 1,
+    slug: "securing-digital-legacies",
     title: "Securing Digital Legacies: The Imperative for On-Chain Inheritance Protocols",
-    description: "This project, Ascend Protocol, is India's first attempt at a crypto inheritance platform that handles everything from liquidation to deposit in bank",
+    description:
+      "This project, Ascend Protocol, is India's first attempt at a crypto inheritance platform that handles everything from liquidation to deposit in bank",
     tag: "Web3",
     image: "/images/article-design-tools.png",
     author: "Jayant",
@@ -16,8 +18,10 @@ const blogs = [
   },
   {
     id: 2,
+    slug: "saad-ai-sentiment-alert",
     title: "Saad - AI-Powered Customer Sentiment Alert System",
-    description: "Saad is an intelligent AI agent that continuously monitors Twitter/X and Reddit for brand mentions, automatically analyzes sentiment using advanced AI models, and sends real-time alerts via Slack and Email when negative sentiment is detected.",
+    description:
+      "Saad is an intelligent AI agent that continuously monitors Twitter/X and Reddit for brand mentions, automatically analyzes sentiment using advanced AI models, and sends real-time alerts via Slack and Email when negative sentiment is detected.",
     tag: "AI",
     image: "/images/article-font-sizes.png",
     author: "Jayant",
@@ -25,6 +29,7 @@ const blogs = [
   },
   {
     id: 3,
+    slug: "problem-solving-software-engineering",
     title: "The Art of Problem Solving in Software Engineering",
     description: "Discover effective strategies and mindset shifts that help tackle complex coding challenges.",
     tag: "Career",
@@ -67,14 +72,22 @@ export function BlogsSection() {
             </div>
             <div className="p-6 md:p-8">
               <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6">{blogs[0].title}</h3>
-              <div className="flex items-center gap-3 md:gap-4">
-                <div className="w-12 h-12 md:w-16 md:h-16 bg-[#FDB927] border-2 border-black rounded-full overflow-hidden flex-shrink-0 flex items-center justify-center">
-                  <span className="text-xl md:text-2xl font-bold">J</span>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3 md:gap-4">
+                  <div className="w-12 h-12 md:w-16 md:h-16 bg-[#FDB927] border-2 border-black rounded-full overflow-hidden flex-shrink-0 flex items-center justify-center">
+                    <span className="text-xl md:text-2xl font-bold">J</span>
+                  </div>
+                  <div>
+                    <div className="font-bold text-base md:text-lg text-[#0B0B0B]">{blogs[0].author}</div>
+                    <div className="text-sm md:text-base text-gray-600">{blogs[0].date}</div>
+                  </div>
                 </div>
-                <div>
-                  <div className="font-bold text-base md:text-lg text-[#0B0B0B]">{blogs[0].author}</div>
-                  <div className="text-sm md:text-base text-gray-600">{blogs[0].date}</div>
-                </div>
+                <Link href={`/blogs/${blogs[0].slug}`}>
+                  <Button className="bg-black text-white border-2 border-black rounded-xl px-4 py-2 hover:bg-gray-800 font-semibold text-sm flex items-center gap-2">
+                    Read Blog
+                    <ArrowRight className="w-4 h-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -102,7 +115,13 @@ export function BlogsSection() {
                   {/* Content area */}
                   <div className="p-6 md:p-10 flex flex-col justify-center">
                     <h3 className="text-lg md:text-2xl font-bold mb-3 md:mb-4">{blog.title}</h3>
-                    <p className="text-gray-600 text-sm md:text-lg leading-relaxed">{blog.description}</p>
+                    <p className="text-gray-600 text-sm md:text-lg leading-relaxed mb-4">{blog.description}</p>
+                    <Link href={`/blogs/${blog.slug}`}>
+                      <Button className="bg-black text-white border-2 border-black rounded-xl px-4 py-2 hover:bg-gray-800 font-semibold text-sm flex items-center gap-2 w-fit">
+                        Read Blog
+                        <ArrowRight className="w-4 h-4" />
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
