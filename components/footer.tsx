@@ -58,7 +58,7 @@ export function Footer() {
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="linkedin.com/in/jayant-kurekar/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-[#FF6B7A] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity"
