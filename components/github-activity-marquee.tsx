@@ -106,9 +106,9 @@ export function GithubActivityMarquee() {
         ] as GitHubEvent[])
 
   return (
-    <div className="overflow-hidden my-16">
+    <div className="overflow-hidden my-16 relative">
       <div className="relative overflow-hidden bg-black py-4 w-full">
-        <div className="flex items-center gap-8 animate-marquee-vertical whitespace-nowrap">
+        <div className="flex items-center gap-8 whitespace-nowrap animate-scroll-left">
           {[...displayEvents, ...displayEvents, ...displayEvents, ...displayEvents].map((event, index) => (
             <div
               key={`${event.id}-${index}`}
@@ -125,6 +125,17 @@ export function GithubActivityMarquee() {
             <span className="text-white/60 text-sm">Loading GitHub activity...</span>
           </div>
         )}
+        <div className="absolute right-4 top-1/2 -translate-y-1/2 text-white/60 text-xs font-medium bg-black/80 px-2 py-1 rounded">
+          fetched from{" "}
+          <a
+            href="https://github.com/Iam-jayant"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-yellow-400 hover:text-yellow-300 underline underline-offset-2 transition-colors"
+          >
+            github
+          </a>
+        </div>
       </div>
     </div>
   )
