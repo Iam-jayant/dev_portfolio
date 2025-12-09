@@ -21,7 +21,7 @@ const blogs = [
     slug: "saad-ai-sentiment-alert",
     title: "Saad - AI-Powered Customer Sentiment Alert System",
     description:
-      "Saad is an intelligent AI agent that continuously monitors Twitter/X and Reddit for brand mentions, automatically analyzes sentiment using advanced AI models, and sends real-time alerts via Slack and Email when negative sentiment is detected.",
+      "Agent Saad is an AI-powered monitoring system that tracks social media mentions on Twitter and Reddit to instantly alert teams of negative sentiment.",
     tag: "AI",
     image: "/images/article-font-sizes.png",
     author: "Jayant",
