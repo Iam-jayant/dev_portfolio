@@ -6,17 +6,20 @@ const achievements = [
   {
     name: "Web3 Hackathon",
     organization: "IIIT Nagpur",
-    certificateUrl: null,
+    certificateUrl:
+      "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/IIIT%20Nagpur%20Web3%20Hackathon.pdf",
   },
   {
     name: "Krutiverse Hackathon",
     organization: "TGP Nagpur",
-    certificateUrl: null,
+    certificateUrl:
+      "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/TGP%20krutiverese%20Hackathon.pdf",
   },
   {
     name: "Hack On",
     organization: "GDG on Campus GCOEN",
-    certificateUrl: null,
+    certificateUrl:
+      "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/Hack%20On%20GCOEN.pdf",
   },
   {
     name: "Healthcare Management System Hackathon",
@@ -33,32 +36,38 @@ const achievements = [
   {
     name: "CIH 2.0 Nagpur",
     organization: "Suryodaya College Nagpur",
-    certificateUrl: null,
+    certificateUrl:
+      "https://github.com/Iam-jayant/Certificates/blob/bb6c686d9ca212529ada114c12730cc3cfcd0bfe/cih%202.0%20certificate.pdf",
   },
   {
     name: "Devcraft Hackathon",
     organization: "IIT Indore",
-    certificateUrl: null,
+    certificateUrl:
+      "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/Devcraft%20Esummit%20IIT%20Indore.pdf",
   },
   {
     name: "DSU Devhack 2.0",
     organization: "DSU Bangaluru",
-    certificateUrl: null,
+    certificateUrl:
+      "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/DSU%20Devhack%202.0.pdf",
   },
   {
     name: "Ethglobal New Delhi",
     organization: "Ethereum Global",
-    certificateUrl: null,
+    certificateUrl:
+      "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/Ethglobal%20New%20Delhi%202025.pdf",
   },
   {
     name: "Ecothon 4.0",
     organization: "Sipna College Nagpur",
-    certificateUrl: null,
+    certificateUrl:
+      "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/ecothon%204.0%20certificate%20jayant.pdf",
   },
   {
     name: "Gradio Agents & MCP Hackathon",
     organization: "Gradio & Hugging Face",
-    certificateUrl: null,
+    certificateUrl:
+      "https://github.com/Iam-jayant/Certificates/blob/c27e53ac7355c016b58a05abe1a6eac48e7c5675/Certificate-AgentsMCP-Hackathon-1753275644066_6550.pdf",
   },
 ]
 
