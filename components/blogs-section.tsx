@@ -7,7 +7,7 @@ const blogs = [
   {
     id: 1,
     title: "Securing Digital Legacies: The Imperative for On-Chain Inheritance Protocols",
-    description: "This project, Ascend Protocol, is India's first attempt at a crypto inheritance platform that handles everything from the "Are you okay?" check to the final Rupee deposit.",
+    description: "This project, Ascend Protocol, is India's first attempt at a crypto inheritance platform that handles everything from liquidation to deposit in bank",
     tag: "Web3",
     image: "/images/article-design-tools.png",
     author: "Jayant",
