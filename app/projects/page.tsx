@@ -10,7 +10,6 @@ const projects = [
     description:
       "Crypto Inheritance protocol that enables users to create inheritance vaults for their crypto assets with automatic distribution to beneficiaries.",
     tag: "Web3",
-    logo: "/images/studio-logo.svg",
     bgColor: "bg-[#6366F1]",
     illustration: "/images/studio-workspace.svg",
   },
@@ -19,7 +18,6 @@ const projects = [
     description:
       "'Saad' is an intelligent AI agent that continuously monitors Twitter/X and Reddit for brand mentions, automatically analyzes sentiment using advanced AI models, and sends real-time alerts via Slack and Email when negative sentiment is detected.",
     tag: "AI/ML",
-    logo: "/images/venture-logo.svg",
     bgColor: "bg-[#2F81F7]",
     illustration: "/images/venture-workspace.svg",
   },
@@ -28,7 +26,6 @@ const projects = [
     description:
       "NFT Gift Protocol is a decentralized gifting platform that combines AI-generated art with ERC-20 token vaults. Users can create personalized NFT gift cards that securely store real crypto value, which recipients can keep as collectibles or liquidate instantly.",
     tag: "Web3 x AI",
-    logo: "/images/studio-logo.svg",
     bgColor: "bg-[#10B981]",
     illustration: "/images/studio-workspace.svg",
   },
@@ -37,7 +34,6 @@ const projects = [
     description:
       "High-Performance NIST SP 800-88 Compliant Data Destruction Solution. It make sure that data is 100% not recoverable even after trying most reliable methods of recovery.",
     tag: "Software",
-    logo: "/images/venture-logo.svg",
     bgColor: "bg-[#F59E0B]",
     illustration: "/images/venture-workspace.svg",
   },
@@ -46,7 +42,6 @@ const projects = [
     description:
       "Jeevan Setu is a role-based platform that securely connects organ donors and recipients through verified doctors and hospital networks. Built with a mission to reduce the delay and wastage in organ donation, it enables ethical, transparent, and medically prioritized matching.",
     tag: "Full-stack",
-    logo: "/images/studio-logo.svg",
     bgColor: "bg-[#EC4899]",
     illustration: "/images/studio-workspace.svg",
   },
@@ -84,16 +79,6 @@ export default function ProjectsPage() {
                 className="group grid md:grid-cols-2 bg-white border-[3px] border-black rounded-[32px] overflow-hidden hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all"
               >
                 <div className="p-6 md:p-12 flex flex-col justify-center bg-white">
-                  <div className="flex items-center gap-3 mb-6">
-                    <Image
-                      src={project.logo || "/placeholder.svg"}
-                      alt={`${project.title} logo`}
-                      width={120}
-                      height={32}
-                      className="h-6 md:h-8 w-auto"
-                    />
-                  </div>
-
                   <span className="inline-block bg-black text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-6 w-fit">
                     {project.tag}
                   </span>

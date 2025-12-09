@@ -9,7 +9,6 @@ export function PortfolioSection() {
       description:
         "Crypto Inheritance protocol that enables users to create inheritance vaults for their crypto assets with automatic distribution to beneficiaries",
       tag: "Web3",
-      logo: "/images/studio-logo.svg",
       bgColor: "bg-[#6366F1]",
       illustration: "/images/studio-workspace.svg",
     },
@@ -18,7 +17,6 @@ export function PortfolioSection() {
       description:
         "'Saad' is an intelligent AI agent that continuously monitors Twitter/X and Reddit for brand mentions, automatically analyzes sentiment using advanced AI models, and sends real-time alerts via Slack and Email when negative sentiment is detected.",
       tag: "AI/AI-ML",
-      logo: "/images/venture-logo.svg",
       bgColor: "bg-[#2F81F7]",
       illustration: "/images/venture-workspace.svg",
     },
@@ -41,16 +39,6 @@ export function PortfolioSection() {
               className="group grid md:grid-cols-2 bg-white border-[3px] border-black rounded-[32px] overflow-hidden hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all"
             >
               <div className="p-6 md:p-12 flex flex-col justify-center bg-white">
-                <div className="flex items-center gap-3 mb-6">
-                  <Image
-                    src={project.logo || "/placeholder.svg"}
-                    alt={`${project.title} logo`}
-                    width={120}
-                    height={32}
-                    className="h-6 md:h-8 w-auto"
-                  />
-                </div>
-
                 <span className="inline-block bg-black text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-6 w-fit">
                   {project.tag}
                 </span>
