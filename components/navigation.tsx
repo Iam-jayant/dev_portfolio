@@ -31,9 +31,11 @@ export function Navigation() {
           </Link>
         </div>
 
-        <Button className="bg-black text-white hover:bg-black/90 rounded-sm px-5 h-12 min-w-[48px] flex-shrink-0">
-          <Mail className="w-10 h-10" strokeWidth={2.5} />
-        </Button>
+        <a href="mailto:jayantkurekar1@gmail.com">
+          <Button className="bg-black text-white hover:bg-black/90 rounded-sm px-5 h-12 min-w-[48px] flex-shrink-0">
+            <Mail className="w-10 h-10" strokeWidth={2.5} />
+          </Button>
+        </a>
       </nav>
     </div>
   )
