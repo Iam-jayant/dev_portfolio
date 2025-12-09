@@ -24,9 +24,9 @@ const projects = [
     illustration: "/images/venture-workspace.svg",
   },
   {
-    title: "DevFlow - Developer Productivity Dashboard",
+    title: "CRYPT - NFT Gift Protocol",
     description:
-      "A comprehensive dashboard for developers to track their coding activity, manage tasks, and visualize productivity metrics across multiple repositories and projects.",
+      "NFT Gift Protocol is a decentralized gifting platform that combines AI-generated art with ERC-20 token vaults. Users can create personalized NFT gift cards that securely store real crypto value, which recipients can keep as collectibles or liquidate instantly.",
     tag: "SaaS",
     logo: "/images/studio-logo.svg",
     bgColor: "bg-[#10B981]",
