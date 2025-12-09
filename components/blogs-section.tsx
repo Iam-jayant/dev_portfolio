@@ -6,7 +6,7 @@ import Link from "next/link"
 const blogs = [
   {
     id: 1,
-    title: "The Digital Treasure Chest: Why We Need Crypto Wills and How I Built One",
+    title: "Securing Digital Legacies: The Imperative for On-Chain Inheritance Protocols",
     description: "This project, Ascend Protocol, is India's first attempt at a crypto inheritance platform that handles everything from the "Are you okay?" check to the final Rupee deposit.",
     tag: "Web3",
     image: "/images/article-design-tools.png",
