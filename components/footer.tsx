@@ -108,7 +108,27 @@ export function Footer() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-            <p>Made by Jayant</p>
+            <p className="flex items-center justify-center gap-2">
+              Made by Jayant
+              <svg viewBox="0 0 900 600" className="w-5 h-4 inline-block" aria-label="Indian Flag">
+                <rect width="900" height="200" fill="#FF9933" />
+                <rect y="200" width="900" height="200" fill="#FFFFFF" />
+                <rect y="400" width="900" height="200" fill="#138808" />
+                <circle cx="450" cy="300" r="60" fill="#000080" fillOpacity="0" stroke="#000080" strokeWidth="6" />
+                <circle cx="450" cy="300" r="17" fill="#000080" />
+                {[...Array(24)].map((_, i) => (
+                  <line
+                    key={i}
+                    x1="450"
+                    y1="300"
+                    x2={450 + 55 * Math.cos((i * 15 * Math.PI) / 180)}
+                    y2={300 + 55 * Math.sin((i * 15 * Math.PI) / 180)}
+                    stroke="#000080"
+                    strokeWidth="2"
+                  />
+                ))}
+              </svg>
+            </p>
           </div>
         </div>
       </div>
