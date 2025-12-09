@@ -7,8 +7,8 @@ const blogs = [
   {
     id: 1,
     title: "The Digital Treasure Chest: Why We Need "Crypto Wills" and How I Built One",
-    description: "Learn the fundamentals of UI/UX design and how to kickstart your career in this exciting field.",
-    tag: "Design",
+    description: "This project, Ascend Protocol, is India's first attempt at a crypto inheritance platform that handles everything from the "Are you okay?" check to the final Rupee deposit.",
+    tag: "Web3",
     image: "/images/article-design-tools.png",
     author: "Jayant",
     date: "Dec 5, 2024",
