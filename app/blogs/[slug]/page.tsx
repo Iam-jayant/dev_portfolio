@@ -61,25 +61,28 @@ const blogs = [
     author: "Jayant",
     date: "Nov 28, 2024",
     content: `
-      <p>In today's fast-paced digital landscape, understanding customer sentiment in real-time can make or break a brand's reputation. Enter Saad - an AI-powered sentiment analysis system designed to keep you ahead of the curve.</p>
-      
-      <h2>What is Saad?</h2>
-      <p>Saad is an intelligent AI agent that continuously monitors social media platforms like Twitter/X and Reddit for brand mentions. Using advanced natural language processing models, it analyzes the sentiment behind each mention and sends real-time alerts when negative sentiment is detected.</p>
-      
-      <h2>How It Works</h2>
-      <p>The system operates on a sophisticated pipeline that includes:</p>
-      <ul>
-        <li><strong>Data Collection:</strong> Continuous monitoring of social media APIs for brand-related keywords</li>
-        <li><strong>Sentiment Analysis:</strong> Advanced AI models classify mentions as positive, negative, or neutral</li>
-        <li><strong>Alert Generation:</strong> Automatic notifications via Slack and Email for negative sentiments</li>
-        <li><strong>Dashboard Analytics:</strong> Comprehensive overview of sentiment trends over time</li>
-      </ul>
-      
-      <h2>Technical Stack</h2>
-      <p>Saad leverages cutting-edge technologies including transformer-based language models, real-time data streaming, and scalable cloud infrastructure to ensure reliable and accurate sentiment detection.</p>
-      
-      <h2>Impact</h2>
-      <p>With Saad, brands can respond to customer concerns before they escalate, maintain a positive online presence, and make data-driven decisions about their marketing strategies.</p>
+      <h1>The Art of Problem Solving in Software Engineering</h1>
+    <p><em>Discover effective strategies and mindset shifts that help tackle complex coding challenges.</em></p>
+
+    <p>In software engineering, writing code is often the easy part. The real challenge—and the true art—lies in problem-solving. Whether you are debugging a legacy system or architecting a new feature from scratch, your ability to navigate ambiguity effectively is what distinguishes a coder from an engineer.</p>
+    
+    <p>Here are a few strategies to master the art of problem-solving:</p>
+
+    <h3>1. Understand Before You Solve</h3>
+    <p>Albert Einstein famously said, <em>"If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions."</em> In engineering, this means stepping away from the keyboard. Resist the urge to jump straight into implementation. Instead, clarify requirements, define constraints, and understand the "why" behind the problem.</p>
+
+    <h3>2. The Divide and Conquer Approach</h3>
+    <p>Complex problems can be paralyzing. The most effective way to tackle them is decomposition. Break a monolithic issue into smaller, testable, and manageable components. Solving five small problems is always easier—and less error-prone—than solving one massive one.</p>
+
+    <h3>3. Rubber Duck Debugging</h3>
+    <p>Sometimes, the best way to find a solution is to articulate the problem out loud. Explaining your logic line-by-line to a colleague (or an inanimate object on your desk) forces you to slow down and often reveals logical gaps you missed while skimming.</p>
+
+    <h3>4. Embrace the "Scientific Method"</h3>
+    <p>Treat bugs like scientific experiments. Don't guess; hypothesize. Changing variables at random hoping for a different result is a recipe for technical debt. Instead, form a hypothesis about why the failure is occurring, create a reproducible test case, and systematically verify your assumptions.</p>
+
+    <h3>Conclusion</h3>
+    <p>Great problem solving isn't about knowing every answer; it’s about having a robust process to find them. By cultivating a disciplined mindset and breaking down complexity, you transform obstacles into opportunities for innovation.</p>
+</article>
     `,
   },
   {
