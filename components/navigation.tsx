@@ -20,9 +20,12 @@ export function Navigation() {
           <Link href="/projects" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Projects
           </Link>
-          <a href="/#achievements" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          <Link
+            href="/achievements"
+            className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity"
+          >
             Achievements
-          </a>
+          </Link>
           <a href="/#blogs" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Blogs
           </a>
