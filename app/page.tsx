@@ -5,7 +5,7 @@ import { ServicesSection } from "@/components/services-section"
 import { AboutSection } from "@/components/about-section"
 import { PortfolioSection } from "@/components/portfolio-section"
 import { ExperienceSection } from "@/components/experience-section"
-import { ArticlesSection } from "@/components/articles-section"
+import { BlogsSection } from "@/components/blogs-section"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <AboutSection />
       <PortfolioSection />
       <ExperienceSection />
-      <ArticlesSection />
+      <BlogsSection />
       <Footer />
     </main>
   )

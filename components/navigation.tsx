@@ -26,9 +26,9 @@ export function Navigation() {
           >
             Achievements
           </Link>
-          <a href="/#blogs" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          <Link href="/blogs" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Blogs
-          </a>
+          </Link>
         </div>
 
         <Button className="bg-black text-white hover:bg-black/90 rounded-sm px-5 h-12 min-w-[48px] flex-shrink-0">
