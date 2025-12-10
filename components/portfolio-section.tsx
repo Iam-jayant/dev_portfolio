@@ -20,7 +20,7 @@ export function PortfolioSection() {
       tag: "AI/AI-ML",
       bgColor: "bg-[#2F81F7]",
       illustration: "/images/venture-workspace.svg",
-      githubLink: "https://github.com/Iam-jayant",
+      githubLink: "https://github.com/Iam-jayant/Agent-Saad",
     },
   ]
 
