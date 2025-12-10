@@ -11,7 +11,7 @@ export function PortfolioSection() {
       tag: "Web3",
       bgColor: "bg-[#6366F1]",
       illustration: "/images/studio-workspace.svg",
-      githubLink: "https://github.com/Iam-jayant",
+      githubLink: "https://github.com/Iam-jayant/ascend-protocol",
     },
     {
       title: "SAAD-AI-Powered Customer Sentiment Alert System",
