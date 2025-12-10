@@ -11,6 +11,7 @@ export function PortfolioSection() {
       tag: "Web3",
       bgColor: "bg-[#6366F1]",
       illustration: "/images/studio-workspace.svg",
+      githubLink: "https://github.com/Iam-jayant",
     },
     {
       title: "SAAD-AI-Powered Customer Sentiment Alert System",
@@ -19,6 +20,7 @@ export function PortfolioSection() {
       tag: "AI/AI-ML",
       bgColor: "bg-[#2F81F7]",
       illustration: "/images/venture-workspace.svg",
+      githubLink: "https://github.com/Iam-jayant",
     },
   ]
 
@@ -52,10 +54,12 @@ export function PortfolioSection() {
                 </p>
 
                 <a
-                  href="#"
+                  href={project.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2 font-semibold text-[#0B0B0B] hover:gap-3 transition-all text-sm md:text-base"
                 >
-                  View case study
+                  View project
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
