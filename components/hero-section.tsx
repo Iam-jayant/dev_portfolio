@@ -2,7 +2,7 @@ import { Mail, FolderOpen } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-//Hero section starts here
+//Hero section
 export function HeroSection() {
   return (
     <section className="container mx-auto px-4 py-16 md:py-24">
