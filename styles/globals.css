@@ -122,4 +122,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  html {
+    scroll-behavior: smooth;
+    /* Support for iOS safe areas */
+    padding-bottom: env(safe-area-inset-bottom);
+  }
 }

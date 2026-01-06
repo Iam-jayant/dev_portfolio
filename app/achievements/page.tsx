@@ -73,7 +73,7 @@ const achievements = [
 
 export default function AchievementsPage() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background pb-24 sm:pb-28">{/* Bottom padding for navigation */}
       <Navigation />
 
       <div className="container mx-auto px-4 py-8">

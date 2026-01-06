@@ -52,7 +52,7 @@ const blogs = [
 
 export default function BlogsPage() {
   return (
-    <main className="min-h-screen bg-[#FFFFFF]">
+    <main className="min-h-screen bg-[#FFFFFF] pb-24 sm:pb-28">{/* Bottom padding for navigation */}
       <Navigation />
 
       <section className="container mx-auto px-4 py-12 md:py-16">

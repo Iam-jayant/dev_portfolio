@@ -9,7 +9,7 @@ import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#FFFFFF]">
+    <main className="min-h-screen bg-[#FFFFFF] pb-24 sm:pb-28">{/* Bottom padding for navigation */}
       <Navigation />
       <HeroSection />
       <GithubActivityMarquee />
