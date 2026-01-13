@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Linkedin, Github, Mail, Send, Trophy, ExternalLink } from 'lucide-react'
+import { Linkedin, Github, Mail, Twitter, Send, Trophy, ExternalLink } from 'lucide-react'
 import GitHubCalendar from 'react-github-calendar'
 import './App.css'
 
@@ -13,7 +13,8 @@ function App() {
     github: 'Iam-jayant',
     linkedin: 'jayant-kurekar',
     email: 'jayantkurekar1@gmail.com',
-    twitter: '#', // Add if available
+    twitter: 'x.com/0xjayantxyz',
+    telegram: 'https://t.me/staticmelon',
     about: "Hi, I'm Jayant. Full-stack & Web3 developer passionate about building innovative solutions. Currently pursuing B.Tech at GHRCE, Nagpur. I love working with blockchain technologies, building scalable applications, and exploring AI/ML integrations."
   }
 
@@ -299,6 +300,15 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"
+            >
+              <Twitter size={20} />
+            </a>
+            <a
+              href={personalInfo.telegram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+              title="Telegram"
             >
               <Send size={20} />
             </a>

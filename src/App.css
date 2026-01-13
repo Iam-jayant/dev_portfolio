@@ -58,6 +58,7 @@
   font-weight: bold;
   margin-top: 10px;
   box-shadow: 3px 3px 0px 0px black;
+  padding-bottom: 0.5rem;
 }
 
 .social-links {
@@ -66,7 +67,7 @@
   justify-content: center;
   margin-top: 2rem;
   flex-wrap: wrap;
-  margin-bottom: 0;
+  margin-bottom: 0rem;
 }
 
 .social-link {
@@ -80,18 +81,20 @@
   border-radius: 8px;
   transition: all 0.2s ease;
   box-shadow: 2px 2px 0px 0px black;
+
 }
 
 .social-link:hover {
   transform: translate(-2px, -2px);
   box-shadow: 5px 5px 0px 0px var(--accent-lavender);
+
 }
 
 /* Navigation Tabs */
 .header {
   border-bottom: 2px solid var(--border-color);
-  padding-bottom: 2rem;
-  margin-bottom: 2.5rem;
+  /* padding-bottom: 0.1rem; */
+  margin-bottom: 2rem;
 }
 
 .nav-tabs {
