@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Linkedin, Github, Mail, Twitter, Send, Trophy, ExternalLink } from 'lucide-react'
+import { Linkedin, Github, Mail, Twitter, Send, Trophy, ExternalLink, Zap, BookOpen, Coffee } from 'lucide-react'
 import GitHubCalendar from 'react-github-calendar'
 import './App.css'
 
@@ -9,13 +9,13 @@ function App() {
   // Personal Data
   const personalInfo = {
     name: 'JAYANT',
-    techStack: 'WEB3 | FULL-STACK | AI/ML',
+    techStack: 'WEB3 | FULL-STACK | AI | JAVA',
     github: 'Iam-jayant',
     linkedin: 'jayant-kurekar',
     email: 'jayantkurekar1@gmail.com',
     twitter: 'x.com/0xjayantxyz',
     telegram: 'https://t.me/staticmelon',
-    about: "Hi, I'm Jayant. Full-stack & Web3 developer passionate about building innovative solutions. Currently pursuing B.Tech at GHRCE, Nagpur. I love working with blockchain technologies, building scalable applications, and exploring AI/ML integrations."
+    about: "Hi, I'm Jayant."
   }
 
   // Stack Data
@@ -173,17 +173,72 @@ function App() {
       case 'about':
         return (
           <div className="about-content">
-            <p className="about-text">{personalInfo.about}</p>
+            <div className="about-card">
+              <h2 className="about-title">Hi, I'm Jayant.</h2>
+
+              <p className="about-text">
+                I'm an engineering student and a developer. I genuinely enjoy shipping things that actually work.
+              </p>
+
+              <p className="about-text">
+                I build across <strong>Web3, full-stack, and AI</strong>, working with smart contracts, backend systems, and frontend polish. I like understanding the <strong>whole stack,</strong> not just one layer.
+              </p>
+
+              <p className="about-text">
+                Hackathons shaped my mindset. Build fast, think deep, and deliver under pressure. I’ve been to <strong>15+ hackathons</strong>, won a few, and learned more there than any textbook.
+              </p>
+
+              <p className="about-text">
+                Outside code, I travel and shoot. A reminder that great systems, like great photos, need clarity, patience, and intent.
+              </p>
+            </div>
             <div className="github-calendar-container">
+              <h3 className="github-calendar-title">
+                <Github size={24} /> Contributions
+              </h3>
               <GitHubCalendar
                 username={personalInfo.github}
-                blockSize={12}
+                blockSize={10}
                 blockMargin={4}
                 fontSize={14}
                 colorScheme="light"
               />
             </div>
-          </div>
+
+
+            <div className="info-grid">
+              <div className="info-card">
+                <h3 className="info-title">
+                  <Zap size={20} /> Learning Now
+                </h3>
+                <ul className="info-list">
+                  <li>Rust Lang Book</li>
+                  <li>Solana Development</li>
+                  <li>Zero Knowledge Proofs</li>
+                </ul>
+              </div>
+              <div className="info-card">
+                <h3 className="info-title">
+                  <BookOpen size={20} /> Interests
+                </h3>
+                <ul className="info-list">
+                  <li>DeFi Protocols</li>
+                  <li>Hackathons</li>
+                  <li>Open Source</li>
+                </ul>
+              </div>
+            </div>
+
+            <button
+              className="tea-button"
+              onClick={() => {
+                navigator.clipboard.writeText('8767629570');
+                alert('UPI Number 8767629570 copied to clipboard! Pay via any UPI App.');
+              }}
+            >
+              <Coffee size={20} /> Buy me a chai!
+            </button>
+          </div >
         )
 
       case 'stack':
@@ -368,6 +423,10 @@ function App() {
       <div className="content-area">
         {renderContent()}
       </div>
+
+      <footer className="footer">
+        © 2026 {personalInfo.name} • Built with React + Vite
+      </footer>
     </div>
   )
 }
